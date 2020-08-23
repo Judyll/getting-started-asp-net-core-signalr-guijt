@@ -21,6 +21,10 @@ namespace WiredBrain
              * Adding the needed types to the dependency injection container.
              * You can use AddSignalR() to use the default or you can use a lamba
              * to fine tune the configuration like AddSignalR(r => r.EnableDetailedErrors)
+             * 
+             * The .AddMessagePackProtocol allows us to support MessagePacks. The server
+             * will now support message pack in addition to the JSON support. 
+             * This comes from the SignalR.Protocols.MessagePack nuget package
              */
             services.AddSignalR().AddMessagePackProtocol();
         }

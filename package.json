@@ -7,17 +7,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RolandGuijt/GettingStartedWithSignalR.git"
+    "url": "git+https://github.com/Judyll/getting-started-asp-net-core-signalr-guijt.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RolandGuijt/GettingStartedWithSignalR/issues"
+    "url": "https://github.com/Judyll/getting-started-asp-net-core-signalr-guijt/issues"
   },
-  "homepage": "https://github.com/RolandGuijt/GettingStartedWithSignalR#readme",
+  "homepage": "https://github.com/Judyll/getting-started-asp-net-core-signalr-guijt/blob/master/README.md",
   "dependencies": {
-    "@aspnet/signalr": "^1.0.0"
+    "@aspnet/signalr": "^1.1.4"
   },
-  "description": ""
+  "description": "Getting Started with ASP.NET Core SignalR",
+  "devDependencies": {}
 }

@@ -39,7 +39,8 @@ namespace WiredBrain
              * We also need to plug SignalR into the pipeline. As a parameter, we have to
              * provide a function that gets a HubRouteBuilder object. Just like MVC,
              * we have to setup routing. In this case not for controllers, but for hubs.
-             * We are mapping the class CoffeeHub to /coffeehub
+             * We are mapping the class CoffeeHub to /coffeehub. We are going to need this
+             * relative URL when we are going to write the client part in wiredbrain.js.
              */
             app.UseSignalR(routes => routes.MapHub<CoffeeHub>("/coffeehub"));
             app.UseMvc();
